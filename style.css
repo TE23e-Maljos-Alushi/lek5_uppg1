@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+}
+
+.rubrik {
+    border: 3px red solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#etta {
+    border: 2px black solid;
+    background-color: aqua;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    border: 3px orange solid;
+}
+
+.vänster, .höger {
+    border: 3px black solid;
+    width: 49%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vänster {
+    background-color: yellow;
+}
+
+.höger {
+    background-color: pink;
+}
+
+#lorem {
+    border: 3px yellow solid;
+    margin-top: 0px;
+}
